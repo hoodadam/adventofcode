@@ -19,3 +19,4 @@ with open(DATA_FILE) as f:
     raw_data = f.readlines()" > $(pwd)/$1/"day"$2/$3"_2.py"
 touch $(pwd)/$1/"day"$2/"data/data_test.txt"
 touch $(pwd)/$1/"day"$2/"data/data.txt"
+git add -A
